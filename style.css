@@ -21,7 +21,7 @@ body {
 }
 
 /* Push header and content to the right of the banner */
-header, main, .content {
+header, main, .content, nav {
   margin-left: 250px;            /* Same as banner width */
 }
 
