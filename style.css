@@ -26,10 +26,17 @@ body {
 header, main, .content {
   margin-left: 250px;            /* Same as banner width */
 }
+
+header h1 {
+  font-size: 3rem;           /* adjust as needed */
+  font-weight: normal;          /* bold */
+  margin: 0;                  /* optional: remove default spacing */
+}
+
 /* nav bar */
 nav {
   background-color: #e6dcca;
-  text-align: center;
+  text-align: left;
 }
 
 nav a {
@@ -38,7 +45,7 @@ nav a {
   text-decoration: none;
   font-size: 1.5em;
   padding: 14px 20px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 nav a:hover {
