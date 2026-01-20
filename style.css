@@ -28,15 +28,18 @@ header, main, .content {
 header h1 {
   font-size: 3rem;           /* adjust as needed */
   font-weight: normal;          /* bold */
-  margin: 0;                  /* optional: remove default spacing */
   padding-bottom: 10px;       /* space between text and line */
   border-bottom: 2px solid #000; /* full-width underline */
+  margin: auto;
+  padding: 20px;
 }
 
 /* nav bar */
 nav {
   background-color: #e6dcca;
   text-align: left;
+  margin: auto;
+  padding: 20px;
 }
 
 nav a {
