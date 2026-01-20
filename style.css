@@ -21,7 +21,7 @@ body {
 }
 
 /* Push header and content to the right of the banner */
-header, main, .content, nav {
+header, main, nav {
   margin-left: 250px;            /* Same as banner width */
 }
 
@@ -47,7 +47,9 @@ nav a {
   color: #39452b;
   text-decoration: none;
   font-size: 1.5em;
-  padding: 14px 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 34px;
   font-weight: normal;
 }
 
@@ -59,7 +61,8 @@ nav a:hover {
 .content {
   padding: 20px;
   max-width: 900px;
-  margin: auto;
+  margin-left: 250px;
+  text-align: left;
 }
 
 /* links */
