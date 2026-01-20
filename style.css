@@ -7,19 +7,20 @@ body {
   color: #39452b;
 }
 
-/* Vertical banner on left side */
+/* Vertical left banner */
 .banner {
-  position: fixed;       /* Sticks it to the side of the page */
-  top: 0;                /* Start at the top */
-  left: 0;               /* Align to left edge */
-  width: 250px;          /* Original height becomes width after rotation */
-  height: 100vh;         /* Full height of viewport */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;             /* sidebar thickness */
+  height: 100vh;            /* full viewport height */
   background-image: url('IMG_54892.png');
   background-size: cover;
   background-position: center;
-  transform: rotate(-90deg); /* Rotate counter-clockwise */
-  transform-origin: top left; /* Pivot point for rotation */
-  z-index: 1000;          /* Make sure it’s on top of other elements */
+  background-repeat: no-repeat;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: top left;
+  z-index: 1000;
 }
 
 /* Push header and content to the right of the banner */
