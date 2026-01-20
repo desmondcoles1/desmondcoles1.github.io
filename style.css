@@ -22,6 +22,10 @@ body {
   z-index: 1000;          /* Make sure it’s on top of other elements */
 }
 
+/* Push header and content to the right of the banner */
+header, main, .content {
+  margin-left: 250px;            /* Same as banner width */
+}
 /* nav bar */
 nav {
   background-color: #e6dcca;
